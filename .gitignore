@@ -1,28 +1,15 @@
-# Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Virtual environment
-venv/
-.venv/
-env/
-
-# IDE
-.vscode/
-.idea/
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Captures
+*.py[cod]
+models/*.task
+yolov8n.pt
 captures/
-
-# Model files
-*.pt
+logs/
+.venv/
+.env
+__pycache__/
+*.py[cod]
+captures/
+models/
 *.task
-
-# Env
+*.pt
 .env
